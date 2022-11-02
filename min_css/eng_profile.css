@@ -1,0 +1,93 @@
+/* pre define css -   */
+s-input {
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+w-10 {
+	width: 10%;
+}
+w-20 {
+	width: 20%;
+}
+w-30 {
+	width: 30%;
+}
+w-40 {
+	width: 40%;
+}
+w-50 {
+	width: 50%;
+}
+w-70 {
+	width: 70%;
+}
+w-80 {
+	width: 80%;
+}
+w-90 {
+	width: 90%;
+}
+w-10 {
+	width: 100%;
+}
+
+/* paddings  */
+.p_top_5 {
+	padding: 2px 0px;
+}
+/* paddings  end here*/
+
+/* pre define css -   */
+
+.main_f-row-1 {
+	width: 50%;
+	/* background: rgb(139, 139, 139); */
+	padding: 10px 10px;
+	margin: 0px auto;
+	margin-top: 5%;
+}
+/* media qurey  */
+
+/* media qurey  */
+.label_coloumn {
+	color: #fff;
+	font-weight: 600;
+	/* margin-right: 10px; */
+}
+.input_coloumn {
+	width: 80%;
+}
+.input_formet_forme {
+	width: 80%;
+}
+.row_flex {
+	display: flex;
+	align-items: center;
+}
+
+.info_bar {
+	padding: 2px 0px;
+	background: #001d51;
+	margin: 20px 0px;
+	/* border-radius: 10px; */
+	text-align: center;
+	/* text-transform: uppercase; */
+}
+
+.info_bar p {
+	text-align: center;
+	font-size: larger;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* .............. */
+@media only screen and (max-width: 600px) {
+	.main_f-row-1 {
+		width: 80%;
+		margin-top: 23%;
+		padding-bottom: 57px;
+	}
+}
